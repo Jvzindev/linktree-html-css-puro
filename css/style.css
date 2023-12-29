@@ -1,0 +1,95 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url("../assets/fundo-gradiente-de-tons-de-verde_23-2148364596.png");
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    width: 360px;
+    height: 270px;
+    margin: auto;
+}
+
+/* Logotipo */
+.logo {
+    text-align: center;
+    margin-top: 70px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: block;
+}
+.logo:hover {
+    transform: scale(1.2);
+}
+.logo img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Titulo principal */
+.title{
+    text-align: center;
+    margin-top: 15px;
+}
+.title h3 {
+    color: #fff;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+/* Paragrafo */
+.paragraphy {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.paragraphy p {
+    color: #fafafa;
+}
+
+/* social midia */
+.midia-container {
+    margin-top: 30px;
+}
+.midia-container li {
+    list-style-type: none;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #b8b8b8;
+    background-color: #cccccc23;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.midia-container li:hover {
+    transform: scale(1.2);
+}
+.midia-container a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Icons */
+.fa-brands {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+.fa-github,
+.fa-instagram,
+.fa-linkedin-in {
+    margin-bottom: -20px;
+    margin-left: 50px;
+}
